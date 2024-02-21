@@ -1,7 +1,10 @@
-export default function LandingPage(){
-    return(
+import NavBar from "../../components/ui/navbar"
+
+export default function LandingPage() {
+    return (
         <>
-        <p>landing</p>
+            <NavBar />
+            <p>landing</p>
         </>
     )
 }

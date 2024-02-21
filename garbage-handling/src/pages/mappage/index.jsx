@@ -1,7 +1,10 @@
-export default function MapPage(){
-    return(
+import NavBar from "../../components/ui/navbar"
+
+export default function MapPage() {
+    return (
         <>
-        <p>mappage</p>
+            <NavBar />
+            <p>mappage</p>
         </>
     )
 }
