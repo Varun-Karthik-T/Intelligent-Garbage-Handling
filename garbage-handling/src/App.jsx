@@ -1,7 +1,7 @@
 import LandingPage from "./pages/landingpage"
 import AboutPage from "./pages/aboutpage"
 import DashboardPage from "./pages/dashboardpage"
-import MapPage from "./pages/mappage"
+
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
         <Route path="/" element={<LandingPage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/dashboard" element={<DashboardPage />} />
-        <Route path="/map" element={<MapPage />} />
+
       </Routes>
     </Router>
 
