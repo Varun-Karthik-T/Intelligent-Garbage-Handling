@@ -3,6 +3,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaHome, FaInfoCircle, FaChartBar, FaMapMarkerAlt } from 'react-icons/fa';
 import './style.css';
+import Navbar from '@/components/ui/navbar';
 
 const LandingPage = () => {
   return (
@@ -14,21 +15,18 @@ const LandingPage = () => {
               <FaHome style={navbarIconStyle} /> Home
             </Link>
           </li>
-          <li>
-            <Link to="/about" style={navbarLinkStyle}>
-              <FaInfoCircle style={navbarIconStyle} /> About
-            </Link>
-          </li>
+
           <li>
             <Link to="/dashboard" style={navbarLinkStyle}>
               <FaChartBar style={navbarIconStyle} /> Dashboard
             </Link>
           </li>
           <li>
-            <Link to="/map" style={navbarLinkStyle}>
-              <FaMapMarkerAlt style={navbarIconStyle} /> Map
+            <Link to="/about" style={navbarLinkStyle}>
+              <FaInfoCircle style={navbarIconStyle} /> About
             </Link>
           </li>
+
         </ul>
       </nav>
       <div className="content-container">
@@ -36,7 +34,7 @@ const LandingPage = () => {
           <h1 style={bigTextStyle}>Intelligent Garbage Handling</h1>
           <h1 style={smallTextStyle}>Paving A Way For A Greener Future</h1>
           <p>
-            Welcome to our innovative solution for efficient garbage handling. 
+            Welcome to our innovative solution for efficient garbage handling.
           </p>
           <p>
             We are dedicated to making a positive impact on the environment.

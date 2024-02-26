@@ -1,62 +1,85 @@
-const team={
-    nitin:{
-        src:"../assets/NITIN_SV.jpg",
-        alt:"Nitin",
-        fallback:"NI",
-        name:"Nitin S",
-        role:"Team Lead"
+import varun from '../assets/VARUN_KARTHIK_T.jpg';
+import shreyas from '../assets/SHREYAS.jpg';
+import aamir from '../assets/MOHAMED_AAMIR_GHOUSE.jpg'
+import soumya from '../assets/SOUMYA.jpg'
+import guru from '../assets/GURUPRASAD N.jpeg'
+import aanisa from '../assets/Aanisa Maryam(1).jpg'
+import samyuktha from '../assets/Samyuktha_S.jpg'
+import nitin from '../assets/NITIN_SV.jpg'
+
+
+const team = {
+    nitin: {
+        src: nitin,
+        alt: "Nitin",
+        fallback: "NI",
+        name: "Nitin S",
+        role: "Team Lead",
+        linkedin: "https://in.linkedin.com/in/nitin-sv-035670258"
     },
-    varun:{
-        src:"../assets/VARUN_KARTHIK_T.jpg",
-        alt:"Varun",
-        fallback:"VK",
-        name:"Varun Karthik T",
-        role:"Team Member"
+    aamir: {
+        src: aamir,
+        alt: "Aamir",
+        fallback: "MA",
+        name: "Mohamed Aamir Ghouse",
+        role: "Finance Lead",
+        linkedin:""
     },
-    shreyas:{
-        src:"../assets/SHREYAS.jpg",
-        alt:"Shreyas",
-        fallback:"SH",
-        name:"Shreyas",
-        role:"Team Member"
+    guru: {
+        src: guru,
+        alt: "Guru",
+        fallback: "GP",
+        name: "Guruprasad N",
+        role: "Team Member",
+        linkedin:""
     },
-    samyuktha:{
-        src:"../assets/Samyuktha_S.jpg",
-        alt:"Samyuktha",
-        fallback:"SO",
-        name:"Samyuktha S",
-        role:"Team Member"
+    samyuktha: {
+        src: samyuktha,
+        alt: "Samyuktha",
+        fallback: "SO",
+        name: "Samyuktha S",
+        role: "Team Member",
+        linkedin:""
     },
-    aamir:{
-        src:"../assets/MOHAMED_AAMIR_GHOUSE.jpg",
-        alt:"Aamir",
-        fallback:"MA",
-        name:"Mohamed Aamir Ghouse",
-        role:"Team Member"
+
+
+    varun: {
+        src: varun,
+        alt: "Varun",
+        fallback: "VK",
+        name: "Varun Karthik T",
+        role: "Team Member",
+        linkedin:"https://www.linkedin.com/in/varun-karthik-t-663268262/"
     },
-    soumya:{
-        src:"../assets/SOUMYA.jpg",
-        alt:"Soumya",
-        fallback:"SO",
-        name:"Soumya",
-        role:"Team Member"
+
+    shreyas: {
+        src: shreyas,
+        alt: "Shreyas",
+        fallback: "SH",
+        name: "Shreyas",
+        role: "Team Member",
+        linkedin:""
     },
-    guru:{
-        src:"../assets/GURUPRASAD N.jpeg",
-        alt:"Guru",
-        fallback:"GP",
-        name:"Guruprasad N",
-        role:"Team Member"
+
+    soumya: {
+        src: soumya,
+        alt: "Soumya",
+        fallback: "SO",
+        name: "Soumya",
+        role: "Team Member",
+        linkedin:"https://www.linkedin.com/in/soumya-renganathen-aa61a1263"
     },
-    aanisa:{
-        src:"../assets/Aanisa Maryam(1).jpg",
-        alt:"Aanisa",
-        fallback:"AM",
-        name:"Aanisa Maryam",
-        role:"Team Member"
+
+    aanisa: {
+        src: aanisa,
+        alt: "Aanisa",
+        fallback: "AM",
+        name: "Aanisa Maryam",
+        role: "Team Member",
+        linkedin:"https://in.linkedin.com/in/aanisa-maryam-603a112b6"
 
     }
 
 }
 
-export {team};
+export { team };
