@@ -1,4 +1,4 @@
-import varun from '../assets/VARUN_KARTHIK_T.jpg';
+import varun from '../assets/vk2.jpg';
 import shreyas from '../assets/SHREYAS.jpg';
 import aamir from '../assets/MOHAMED_AAMIR_GHOUSE.jpg'
 import soumya from '../assets/SOUMYA.jpg'
