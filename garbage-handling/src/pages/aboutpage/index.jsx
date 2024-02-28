@@ -1,5 +1,5 @@
 import ImageCard from "./imagecard";
-import NavBar from "../../components/ui/navbar";
+import NavBar from "../../components/navbar";
 import { team } from "../../const/team";
 
 
@@ -9,16 +9,13 @@ export default function AboutPage() {
         <>
             <NavBar />
             <div className="max-w-5xl mx-auto mt-8">
-                <h2 className="text-3xl font-bold mb-4">Objectives</h2>
+                <h2 className="text-3xl font-bold mb-4">Problem</h2>
                 <p className="mb-8">
-                    The primary objective of this project is to implement an innovative waste management solution
-                    within our college premises. This solution, centered around a versatile device capable of monitoring and tracking the fill levels of various types of bins in real-time
-                </p>
+                    The waste management system in our country is currently facing significant challenges, primarily marked by the issue of overflowing bins. The absence of a systematic approach to monitor and manage the fill levels of various dust bins leads to operational inefficiencies and delays in waste collection. This problem not only disrupts the overall cleanliness but also poses environmental concerns. To address these challenges, there is a pressing need for a comprehensive understanding of the factors contributing to bin overflow and the implementation of a monitoring system. This system should provide real-time insights into the fill levels of bins, enabling a proactive approach to waste collection. The objective is to establish a more efficient and effective waste management system that ensures timely bin emptying, contributing to a cleaner and more sustainable environment.</p>
 
                 <h2 className="text-3xl font-bold mb-4">Idea</h2>
                 <p className="mb-8">
-                    In our college, overflowing bins are causing major waste management issues. To tackle this, we came up with an innovative solution, a versatile device fitting for all kinds of dust bins, tracking their fill levels, and notifying workers via SMS. This system aims to streamline waste collection, reducing worker burden and ensuring timely bin emptying. With this project, we aim to create a more efficient and effective waste collection system within our college premises
-                </p>
+                    The SmartBin project presents an innovative solution to the inefficiencies in waste management. By integrating ultrasonic sensors, GSM, NRF, and 3D-printed components, the system enables real-time monitoring of garbage levels in bins. The the GSM module allows for instant communication via SMS or calls while the NRF module serves as a transmitter, and a corresponding receiver unit ensures seamless coordination. Additionally, the team's forward-thinking approach includes the integration of a solar voltage converter for sustainability. This solution not only addresses the immediate need for efficient waste management but also aligns with broader environmental goals by storing this data in a database or cloud-based solution. Before visualization, we preprocess the data by cleaning and filtering. Our visualizations include Power BI dashboards, graphs . This project exemplifies a holistic and technologically advanced approach to revolutionizing waste disposal practices.</p>
 
                 <h2 className="text-3xl font-bold mb-4">Mentors</h2>
 

@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { FaHome, FaInfoCircle, FaChartBar, FaMapMarkerAlt } from 'react-icons/fa';
 import './style.css'; // Assuming you have a CSS file for additional styles
-import Navbar from '@/components/ui/navbar'; // Check if this import is necessary
+import Navbar from '@/components/navbar'; // Check if this import is necessary
 
 import bg from '../../assets/bg1.jpg';
 import { Button } from '@/components/ui/button';
